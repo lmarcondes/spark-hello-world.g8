@@ -1,5 +1,7 @@
 A [Giter8][g8] template for a Hello World application, used in the [Getting Started with Scala guide](https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html).
 
+- Template modified to include Spark depencencies and be used as starting point for Spark Scala applications
+
 Template license
 ----------------
 Written in 2017-2021 by the Scala Center
