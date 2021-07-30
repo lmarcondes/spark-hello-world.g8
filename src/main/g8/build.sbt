@@ -27,6 +27,10 @@ version := "1.0"
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.0.0"
 libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.2"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.1.2" % "provided"
+/* libraryDependencies += "org.apache.spark" %% "spark-hadoop-cloud" % "3.0.1.3.0.7110.0-81" */
+/* libraryDependencies += "com.amazonaws" % "aws-java-sdk" % "1.12.35" */
+/* libraryDependencies += "com.amazonaws" % "aws-java-sdk-s3" % "1.12.35" */
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
